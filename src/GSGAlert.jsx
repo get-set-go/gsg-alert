@@ -19,12 +19,9 @@ export default class GSGAlert extends React.Component {
 
   render() {
     let _bClass = {
-      'alert': true
-    };
-
-    _bClass = objectAssign(_bClass, {
+      'alert': true,
       [`alert-${this.props.bStyle}`]: true
-    });
+    };
 
     _bClass = classNames(_bClass);
 

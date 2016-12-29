@@ -7,8 +7,6 @@ import Alert from '../dist/index.min';
 
 class Page extends React.Component {
   render() {
-    const _isDismissible = true;
-
     return (
       <div className="alert-eg-container">
         <h1>Get-Set-Go Alert Component</h1>
@@ -25,7 +23,7 @@ class Page extends React.Component {
         <p className="alert-eg-group">
           <h4>Alert with dismissible</h4>
 
-          <Alert isDismissible={_isDismissible}>Dismissible Alert (Default)</Alert>
+          <Alert isDismissible>Dismissible Alert</Alert>
         </p>
 
       </div>
